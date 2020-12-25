@@ -1,0 +1,24 @@
+{
+	"scopeName": "source.injection",
+	"injectionSelector": "source.lua",
+	"patterns": [
+		{
+			"include": "#general"
+		}
+	],
+	"repository": {
+		"general": {
+            "patterns": [{ "include": "#methods" }, { "include": "#luau" }]
+        },
+
+        "methods": {
+            "match": "[\\.:](\\w+)\\(",
+            "name": "methods.local.lua"
+        },
+
+        "luau": {
+            "match": "(\\W|^)(typeof)(\\W|$)",
+			"name": "luau.keyword.lua"
+        }
+	}
+}

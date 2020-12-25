@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<title>Webpage</title>
+
+		<link rel="stylesheet" href="/stylesheets/styles.css">
+
+		<script defer src="https://cdn.jsdelivr.net/npm/navaid@1/dist/navaid.min.js"></script>
+		<script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@next/dist/zero-md.min.js"></script>
+		<script type="module" src="/app.js"></script>
+	</head>
+
+	<body>
+		<header class="header container">
+			<h1>Webpage Example</h1>
+		</header>
+
+		<div class="nav-wrap container">
+			<div>
+				<nav class="nav"></nav>
+			</div>
+		</div>
+
+		<main class="offset container">
+			<zero-md class="app" manual-render>
+				<template data-merge="append">
+					<style>
+						.markdown-body pre>code {
+							font-size: 0.875rem;
+						}
+						
+						@media (max-width: 640px) {
+							.markdown-body ul {
+							margin-left: 1.125rem;
+							}
+						}
+					</style>
+				</template>
+			</zero-md>
+		</main>
+
+		<footer>Made with ♥</footer>
+	</body>
+</html>

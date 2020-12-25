@@ -1,0 +1,40 @@
+{
+	"name": "waves",
+	"displayName": "waves",
+	"description": "a cool wave of highlighting lua at midnight",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "waves",
+				"uiTheme": "vs-dark",
+				"path": "./themes/waves.json"
+			}
+		],
+		"grammars": [
+			{
+				"injectTo": [
+					"source.lua"
+				],
+				"scopeName": "source.injection",
+				"path": "./syntaxes/lua.json"
+			}
+		],
+		"semanticTokenScopes": [
+			{
+				"language": "lua",
+				"scopes": {
+					"luau.keyword.lua": [
+						"luau.keyword.lua"
+					]
+				}
+			}
+		]
+	}
+}
