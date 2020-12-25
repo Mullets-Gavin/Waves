@@ -17,7 +17,7 @@
         },
 
         "luau": {
-            "match": "(\\W|^)(typeof|type|self)(\\W|$)",
+            "match": "(\\W|^)(typeof|type|self|continue)(\\W|$)",
 			"name": "luau.keyword.lua"
 		}
 	}
