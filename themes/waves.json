@@ -21,12 +21,12 @@
 		"button.hoverBackground": "#008B94",
 		"contrastBorder": "#ffffff00",
 		"debugExceptionWidget.background": "#1D252C",
-		"debugExceptionWidget.border": "#b7c5d3",
-		"debugToolBar.background": "#B7C5D3",
-		"descriptionForeground": "#b7c5d3",
-		"diffEditor.insertedTextBackground": "#B7C5D3",
+		"debugExceptionWidget.border": "#1D252C",
+		"debugToolBar.background": "#1D252C",
+		"descriptionForeground": "#1D252C",
+		"diffEditor.insertedTextBackground": "#1D252C",
 		"diffEditor.insertedTextBorder": "#333F4A",
-		"diffEditor.removedTextBackground": "#B7C5D3",
+		"diffEditor.removedTextBackground": "#1D252C",
 		"diffEditor.removedTextBorder": "#333F4A",
 		"dropdown.background": "#41505e",
 		"dropdown.border": "#41505e",
@@ -60,7 +60,7 @@
 		"editorGroup.dropBackground": "#333F4A",
 		"editorGroupHeader.noTabsBackground": "#333F4A",
 		"editorGroupHeader.tabsBackground": "#181e24",
-		"editorGroupHeader.tabsBorder": "#333F4A",
+		"editorGroupHeader.tabsBorder": "#1D252C",
 		"editorHoverWidget.background": "#15232d",
 		"editorHoverWidget.border": "#333F4A",
 		"editorIndentGuide.background": "#28323a",
@@ -422,17 +422,10 @@
 			}
 		},
 		{
-			"name": "[CSS] - Hex Hex",
-			"scope": ["punctuation.definition.constant.css"],
-			"settings": {
-				"foreground": "#D95468"
-			}
-		},
-		{
 			"name": "[CSS] - Hex Code",
-			"scope": ["constant.other.color.rgb-value.hex.css"],
+			"scope": ["constant.other.color.rgb-value.hex.css", "punctuation.definition.constant.css"],
 			"settings": {
-				"foreground": "#E27E8Dff"
+				"foreground": "#CB9BE3"
 			}
 		},
 		{
@@ -516,10 +509,12 @@
 				"keyword.other.unit.s.css",
 				"keyword.other.unit.vh.css",
 				"keyword.other.unit.vw.css",
-				"keyword.other.unit.deg.css"
+				"keyword.other.unit.deg.css",
+				"keyword.other.unit.rem.css",
+				"keyword.other.unit.em",
 			],
 			"settings": {
-				"foreground": "#d95468"
+				"foreground": "#CB9BE3"
 			}
 		},
 		{
@@ -658,6 +653,13 @@
 			],
 			"settings": {
 				"foreground": "#8BD49C"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT] - Parameters",
+			"scope": "variable.parameter.js",
+			"settings": {
+				"foreground": "#EBBF83",
 			}
 		},
 		{
