@@ -4,7 +4,7 @@
 	"publisher": "Mullets",
 	"description": "watch as the waves crash, a Roblox Luau theme",
 	"repository": "https://github.com/Mullets-Gavin/Waves",
-	"icon": "https://raw.githubusercontent.com/Mullets-Gavin/Waves/master/assets/icon.png",
+	"icon": "assets/icon.png",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.52.0"
