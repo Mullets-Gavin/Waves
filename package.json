@@ -1,7 +1,7 @@
 {
 	"name": "waves",
-	"displayName": "waves",
-	"description": "a cool wave of highlighting lua at midnight",
+	"displayName": "Waves",
+	"description": "watch as the waves crash, a Roblox Luau theme",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.52.0"
@@ -12,7 +12,7 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "waves",
+				"label": "Waves",
 				"uiTheme": "vs-dark",
 				"path": "./themes/waves.json"
 			}
