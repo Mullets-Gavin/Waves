@@ -47,7 +47,7 @@
 		"editor.wordHighlightBackground": "#3d454d",
 		"editorBracketMatch.background": "#4e6e99",
 		"editorBracketMatch.border": "#26506D",
-		"editorCodeLens.foreground": "#B7C5D3",
+		"editorCodeLens.foreground": "#b7c5d380",
 		"editorCursor.foreground": "#b7c5d3",
 		"editorError.border": "#333F4A",
 		"editorError.foreground": "#e27e8d",
@@ -76,7 +76,7 @@
 		"editorRuler.foreground": "#1F4662",
 		"editorSuggestWidget.background": "#15232d",
 		"editorSuggestWidget.border": "#15232d",
-		"editorSuggestWidget.foreground": "#b7c5d3",
+		"editorSuggestWidget.foreground": "#b7c5d380",
 		"editorSuggestWidget.highlightForeground": "#ebbf83",
 		"editorSuggestWidget.selectedBackground": "#28323a",
 		"editorWarning.border": "#ffffff00",
@@ -189,9 +189,9 @@
 		"terminal.foreground": "#ffffff",
 		"terminalCursor.background": "#008B94",
 		"terminalCursor.foreground": "#008B94",
-		"textBlockQuote.background": "#B7C5D3",
+		"textBlockQuote.background": "#1D252C",
 		"textBlockQuote.border": "#B7C5D3",
-		"textCodeBlock.background": "#B7C5D3",
+		"textCodeBlock.background": "#b7c5d380",
 		"textLink.activeForeground": "#718ca1",
 		"textLink.foreground": "#718ca1",
 		"textPreformat.foreground": "#718ca1",
@@ -423,7 +423,10 @@
 		},
 		{
 			"name": "[CSS] - Hex Code",
-			"scope": ["constant.other.color.rgb-value.hex.css", "punctuation.definition.constant.css"],
+			"scope": [
+				"constant.other.color.rgb-value.hex.css",
+				"punctuation.definition.constant.css"
+			],
 			"settings": {
 				"foreground": "#CB9BE3"
 			}
@@ -511,7 +514,7 @@
 				"keyword.other.unit.vw.css",
 				"keyword.other.unit.deg.css",
 				"keyword.other.unit.rem.css",
-				"keyword.other.unit.em",
+				"keyword.other.unit.em"
 			],
 			"settings": {
 				"foreground": "#CB9BE3"
@@ -659,7 +662,7 @@
 			"name": "[JAVASCRIPT] - Parameters",
 			"scope": "variable.parameter.js",
 			"settings": {
-				"foreground": "#EBBF83",
+				"foreground": "#EBBF83"
 			}
 		},
 		{
